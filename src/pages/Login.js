@@ -1,12 +1,8 @@
-import {
-  Link, Route
- } from "react-router-dom";
- 
  import { useForm} from 'react-hook-form';
  import './Signup.css';
  
  
- const Signup = () => {
+ const Login = () => {
    const { handleSubmit, register, formState: { errors } } = useForm();
    const onSubmit = values => alert('successful');
  
@@ -65,5 +61,5 @@ import {
    }
    
    
-   export default Signup;
+   export default Login;
    
