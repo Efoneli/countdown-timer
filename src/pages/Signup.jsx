@@ -64,9 +64,11 @@ const Signup = () => {
           {errors.password && <p style={{color: 'red'}}>Please add your password</p>}              
         </div>
         <div>
-          <input type='checkbox' /> <span>
-            <p>By signing up you agree to the terms and conditions.</p>
-            </span>
+          <label className='checkbox'>
+            <input type='checkbox' /><span style={{color: "white"}}>
+              By signing up you agree to the terms and conditions.
+              </span>
+          </label>
         </div>
       <div className='btn-div'>
         <button id='btn__submit'
